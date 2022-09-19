@@ -1,0 +1,23 @@
+#server port no
+
+server:
+  port: 7090
+  
+  #datasource properties
+  
+spring:
+  datasource:
+    username: system
+    password: system
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    
+   #ORM source properties
+      
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: create
