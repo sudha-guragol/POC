@@ -1,0 +1,3 @@
+after running :Maven install the related jar will be saved in the system path below(do check)
+
+C:\Users\HP\.m2\repository\in\ashokit\02-PwdUtil\1.0
